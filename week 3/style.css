@@ -1,0 +1,138 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+     display: flex;
+    align-items: left-side;
+    justify-content: center;
+    background-color:rgb(215, 218, 218) ;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    min-height: 800px;
+    margin: 50px;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(189, 144, 112);
+    display: grid;
+    width: 100%;
+}
+.container .right-side{
+    background-color:rgb(176, 149, 121);
+    position: relative;
+    padding: 40px;
+
+}
+.container .left-side {
+    position: relative;
+    padding: 30px;
+    background-color: rgb(158, 137, 113);
+    
+}
+.pro-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:centre;
+    padding-bottom: 20px }
+
+    .pro-text2 .int{
+        color: #0f0807;
+        margin-top: 30px;
+        border-bottom: 1px solid ;
+    }
+.left-side h2{
+    text-align: center;
+    border-bottom: 2px solid #1f120e;
+    margin-top: 30px;
+}
+ .pro-text2 .file  H3{
+    margin-bottom: 20px;
+    text-align: left;
+
+    
+}
+.pro-text2 .file{
+    width: 90%;
+    
+    
+
+}
+.pro-text2 ul{
+    font-size: 20px;
+    margin-top: 10px;
+    }
+
+
+.pro-text ul{
+    text-align: left;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.right-side  h4{
+
+   color: rgb(163, 135, 113);
+   border-bottom: 2px solid ;
+   
+}
+.right-side h2{
+     margin-bottom: 20px;
+    
+}
+.right-side .name{
+    padding: 10px;
+    background-color: #694215;
+    color: rgb(169, 136, 116);
+   
+    
+   
+}
+
+.right-side  p{
+   margin-top: 10px;
+   margin: 10px;
+}
+.right-side .work H2{
+    margin-top: 20px;
+    color: #62410d;
+    border-bottom: 2px solid #67360e;
+    
+}
+.right-side .work h3{
+    margin-top: 10px;
+    color: #5a3713;
+}
+.right-side .dev h2{
+    color: #573309;
+    margin-top: 10px;
+
+   
+    
+}
+.right-side .date span{
+    color: #63310b;
+    margin-top: 10px;
+
+    
+}
+.right-side .co h2{
+    margin-top: 10px;
+    color: #7a3d0e;
+    border-bottom: 1px solid ;
+
+}
+.right-side  h5{
+    font-size: 20px;
+}
+.right-side .edu h2{
+    color: #713107;
+    border-bottom: 3px solid;
+}
+.right-side h3{
+    color: #693307;
+}

@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(200, 114, 228);
+    }
+    .main{
+          display: grid;
+          grid-template-columns: 100px 100px 100px;
+          grid-gap: 10px;
+       
+       
+    }
+    .box {
+           font-size: 150%;
+           padding: 20px;
+           border-radius: 5px;
+           color: white;
+           background-color: #060113;
+  }
+  @media only screen and (max-width :600px)
+  {
+    body{
+        background-color: rgb(212, 166, 82);
+    }
+    .box{
+          color: white;
+          background-color: rgb(79, 69, 34);
+    }
+  }
+  .a{
+         grid-column: 1/3;
+         grid-row: 1;
+  }
+  .b{
+         grid-column:3 ;
+         grid-row: 1/3;
+  }
+  .c{
+         grid-column: 1;
+         grid-row: 2;
+  }
+  .d{
+         grid-column: 2;
+         grid-row: 2;
+  }
+</style>
+<body>
+ <div class="main">
+          <div class="box a">A</div>
+          <div class="box b">B</div>
+          <div class="box c">C</div>
+          <div class="box d">D</div>
+</div>
+    
+</body>
+</html>
